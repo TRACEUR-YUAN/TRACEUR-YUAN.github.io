@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>飞行梦想</title>
+  
+  <subtitle>Record My Life</subtitle>
+  <link href="http://traceur-yuan.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://traceur-yuan.github.io/"/>
+  <updated>2022-07-19T07:58:58.590Z</updated>
+  <id>http://traceur-yuan.github.io/</id>
+  
+  <author>
+    <name>Yuan Dan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux内核链表</title>
+    <link href="http://traceur-yuan.github.io/2022/07/18/linux-kernel-linklist/"/>
+    <id>http://traceur-yuan.github.io/2022/07/18/linux-kernel-linklist/</id>
+    <published>2022-07-18T08:13:21.000Z</published>
+    <updated>2022-07-19T07:58:58.590Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1、Linux内核链表&quot;&gt;&lt;a href=&quot;#1、Linux内核链表&quot; class=&quot;headerlink&quot; title=&quot;1、Linux内核链表&quot;&gt;&lt;/a&gt;1、Linux内核链表&lt;/h2&gt;&lt;h5 id=&quot;1-链表数据区域的局限性&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="http://traceur-yuan.github.io/categories/Linux/"/>
+    
+    
+    <category term="Linux Kernel" scheme="http://traceur-yuan.github.io/tags/Linux-Kernel/"/>
+    
+    <category term="LinkList" scheme="http://traceur-yuan.github.io/tags/LinkList/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>部署网站到云服务器</title>
+    <link href="http://traceur-yuan.github.io/2022/06/30/web-deploy/"/>
+    <id>http://traceur-yuan.github.io/2022/06/30/web-deploy/</id>
+    <published>2022-06-30T11:45:21.000Z</published>
+    <updated>2022-07-19T05:38:48.533Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;由于GitHub服务器在国外，访问速度慢，我们可以将网站部署到国内的云服务器上。&lt;/p&gt;
+&lt;p&gt;这篇文章使用宝塔面板将hexo部署到腾讯云服务器上。&lt;/p&gt;
+&lt;h2 id=&quot;1-前提&quot;&gt;&lt;a href=&quot;#1-前提&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="http://traceur-yuan.github.io/categories/Hexo/"/>
+    
+    
+    <category term="Practice" scheme="http://traceur-yuan.github.io/tags/Practice/"/>
+    
+    <category term="Web_Deploy" scheme="http://traceur-yuan.github.io/tags/Web-Deploy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux网络编程</title>
+    <link href="http://traceur-yuan.github.io/2021/05/13/linux-netprogram/"/>
+    <id>http://traceur-yuan.github.io/2021/05/13/linux-netprogram/</id>
+    <published>2021-05-13T05:45:21.000Z</published>
+    <updated>2022-07-18T08:49:13.080Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;linux网络编程框架&quot;&gt;&lt;a href=&quot;#linux网络编程框架&quot; class=&quot;headerlink&quot; title=&quot;linux网络编程框架&quot;&gt;&lt;/a&gt;linux网络编程框架&lt;/h1&gt;&lt;h2 id=&quot;（1）网络是分层的&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="http://traceur-yuan.github.io/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="http://traceur-yuan.github.io/tags/Linux/"/>
+    
+    <category term="Network programming" scheme="http://traceur-yuan.github.io/tags/Network-programming/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Notes From Life</title>
+    <link href="http://traceur-yuan.github.io/2021/02/09/notes-from-movie/"/>
+    <id>http://traceur-yuan.github.io/2021/02/09/notes-from-movie/</id>
+    <published>2021-02-09T14:43:10.000Z</published>
+    <updated>2022-07-19T07:58:07.562Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;《Wonder-Woman-1984》&quot;&gt;&lt;a href=&quot;#《Wonder-Woman-1984》&quot; class=&quot;headerlink&quot; title=&quot;《Wonder Woman 1984》&quot;&gt;&lt;/a&gt;《Wonder Woman 1984》&lt;/h2&gt;&lt;p&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Note" scheme="http://traceur-yuan.github.io/categories/Note/"/>
+    
+    
+    <category term="Movie" scheme="http://traceur-yuan.github.io/tags/Movie/"/>
+    
+    <category term="Actor&#39;s Lines" scheme="http://traceur-yuan.github.io/tags/Actor-s-Lines/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IOT :华为LiteOS开发环境搭建</title>
+    <link href="http://traceur-yuan.github.io/2021/02/01/iot-ch2-liteos-develop-env/"/>
+    <id>http://traceur-yuan.github.io/2021/02/01/iot-ch2-liteos-develop-env/</id>
+    <published>2021-02-01T15:22:19.000Z</published>
+    <updated>2022-07-18T07:28:06.838Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;IOT-华为LiteOS开发环境搭建&quot;&gt;&lt;a href=&quot;#IOT-华为LiteOS开发环境搭建&quot; class=&quot;headerlink&quot; title=&quot;IOT :华为LiteOS开发环境搭建&quot;&gt;&lt;/a&gt;IOT :华为LiteOS开发环境搭建&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="HUAWEI LiteOS" scheme="http://traceur-yuan.github.io/categories/HUAWEI-LiteOS/"/>
+    
+    
+    <category term="Practice" scheme="http://traceur-yuan.github.io/tags/Practice/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IOT:物联网简介</title>
+    <link href="http://traceur-yuan.github.io/2021/02/01/internet-of-things/"/>
+    <id>http://traceur-yuan.github.io/2021/02/01/internet-of-things/</id>
+    <published>2021-02-01T11:48:35.000Z</published>
+    <updated>2022-07-18T07:24:11.699Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Internet-of-things：物联网简介&quot;&gt;&lt;a href=&quot;#Internet-of-things：物联网简介&quot; class=&quot;headerlink&quot; title=&quot;Internet of things：物联网简介&quot;&gt;&lt;/a&gt;Internet of</summary>
+        
+      
+    
+    
+    
+    <category term="HUAWEI LiteOS" scheme="http://traceur-yuan.github.io/categories/HUAWEI-LiteOS/"/>
+    
+    
+    <category term="Introduce" scheme="http://traceur-yuan.github.io/tags/Introduce/"/>
+    
+    <category term="Operating System" scheme="http://traceur-yuan.github.io/tags/Operating-System/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>嵌入式OS:UCOSIII</title>
+    <link href="http://traceur-yuan.github.io/2021/01/28/uc-osiii/"/>
+    <id>http://traceur-yuan.github.io/2021/01/28/uc-osiii/</id>
+    <published>2021-01-28T08:41:11.000Z</published>
+    <updated>2022-07-19T05:41:00.191Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;嵌入式实时操作系统UCOSIII&quot;&gt;&lt;a href=&quot;#嵌入式实时操作系统UCOSIII&quot; class=&quot;headerlink&quot; title=&quot;嵌入式实时操作系统UCOSＩＩＩ&quot;&gt;&lt;/a&gt;嵌入式实时操作系统UCOSＩＩＩ&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="UCOS" scheme="http://traceur-yuan.github.io/categories/UCOS/"/>
+    
+    
+    <category term="Introduce" scheme="http://traceur-yuan.github.io/tags/Introduce/"/>
+    
+    <category term="Operating System" scheme="http://traceur-yuan.github.io/tags/Operating-System/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo常用命令</title>
+    <link href="http://traceur-yuan.github.io/2021/01/13/hello-world/"/>
+    <id>http://traceur-yuan.github.io/2021/01/13/hello-world/</id>
+    <published>2021-01-13T06:44:21.000Z</published>
+    <updated>2022-07-18T07:57:10.513Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;新建&quot;&gt;&lt;a href=&quot;#新建&quot; class=&quot;headerlink&quot; title=&quot;新建&quot;&gt;&lt;/a&gt;新建&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;hexo n &quot;文章名&quot; == hexo new &quot;文章名&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;本地预览&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="http://traceur-yuan.github.io/categories/Hexo/"/>
+    
+    
+    <category term="Practice" scheme="http://traceur-yuan.github.io/tags/Practice/"/>
+    
+    <category term="Blog" scheme="http://traceur-yuan.github.io/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2018秋学期总结</title>
+    <link href="http://traceur-yuan.github.io/2019/03/20/summary/"/>
+    <id>http://traceur-yuan.github.io/2019/03/20/summary/</id>
+    <published>2019-03-20T12:10:25.000Z</published>
+    <updated>2022-10-13T10:06:29.966Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;2018秋学期总结：&quot;&gt;&lt;a href=&quot;#2018秋学期总结：&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Summary" scheme="http://traceur-yuan.github.io/categories/Summary/"/>
+    
+    
+    <category term="Summary" scheme="http://traceur-yuan.github.io/tags/Summary/"/>
+    
+  </entry>
+  
+</feed>
