@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="IOT :华为LiteOS开发环境搭建, 飞行梦想">
+    <meta name="keywords" content="Paper:CR-Fill, 飞行梦想">
     <meta name="description" content="嵌入式软件工程师、Linux、Stm32、LiteOS">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>IOT :华为LiteOS开发环境搭建 | 飞行梦想</title>
+    <title>Paper:CR-Fill | 飞行梦想</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -270,12 +270,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/images/10.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/images/21.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">IOT :华为LiteOS开发环境搭建</h1>
+                    <h1 class="description center-align post-title">Paper:CR-Fill</h1>
                 </div>
             </div>
         </div>
@@ -391,8 +391,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Practice/">
-                                <span class="chip bg-color">Practice</span>
+                            <a href="/tags/Image-Inpainting/">
+                                <span class="chip bg-color">Image Inpainting</span>
+                            </a>
+                        
+                            <a href="/tags/GAN/">
+                                <span class="chip bg-color">GAN</span>
+                            </a>
+                        
+                            <a href="/tags/Attention-free/">
+                                <span class="chip bg-color">Attention-free</span>
                             </a>
                         
                     </div>
@@ -403,8 +411,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/HUAWEI-LiteOS/" class="post-category">
-                                HUAWEI LiteOS
+                            <a href="/categories/Paper/" class="post-category">
+                                Paper
                             </a>
                         
                     </div>
@@ -416,7 +424,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-02-01
+                    2022-10-18
                 </div>
                 
 
@@ -425,14 +433,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.5k
+                    3.6k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    5 分
+                    12 分
                 </div>
                 
 
@@ -447,25 +455,30 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="IOT-华为LiteOS开发环境搭建"><a href="#IOT-华为LiteOS开发环境搭建" class="headerlink" title="IOT :华为LiteOS开发环境搭建"></a>IOT :华为LiteOS开发环境搭建</h1><h2 id="一、什么是操作系统"><a href="#一、什么是操作系统" class="headerlink" title="一、什么是操作系统"></a>一、什么是操作系统</h2><h4 id="1-1-公司发展案例"><a href="#1-1-公司发展案例" class="headerlink" title="1.1 公司发展案例"></a>1.1 公司发展案例</h4><p> （1）初创期一个人，主要是干活，直接产出价值。不需要管理。<br> （2）发展期10个人，一起干活，当面沟通，稍有组织即可，不需要专业化管理。<br> （3）规模期几百几千几万人，部分人纯干活，部分人干活加管理，部分人纯管理。<br> （4）总结：任何组织和系统的演变发展方向都是组织整体效率最优化配置。<br> （5）干活、沟通、管理必须模块化划分，然后再有效结合，被证明是最有效的方式。</p>
-<h4 id="1-2-为什么用操作系统"><a href="#1-2-为什么用操作系统" class="headerlink" title="1.2 为什么用操作系统"></a>1.2 为什么用操作系统</h4><h5 id="1-2-1-从裸机到操作系统是必然发展路线"><a href="#1-2-1-从裸机到操作系统是必然发展路线" class="headerlink" title="1.2.1 从裸机到操作系统是必然发展路线"></a>1.2.1 从裸机到操作系统是必然发展路线</h5><p> （1）发展阶段1：裸机并且全部代码自写<br> （2）发展阶段2：裸机但调用库函数<br> （3）发展阶段3：裸机加状态机实现简单的多任务<br> （4）发展阶段4：上简单操作系统：RTOS（ucos、LiteoS）<br> （5）发展阶段5：上复杂操作系统：Linux、Windows、Android</p>
-<h5 id="1-2-2-使用操作系统的优势"><a href="#1-2-2-使用操作系统的优势" class="headerlink" title="1.2.2 使用操作系统的优势"></a>1.2.2 使用操作系统的优势</h5><p> （1）轻松实现多任务<br> （2）轻松借用很多第三方组件功能<br> （3）更好实现可移植性<br> （4）减少项目开发复杂度（类比汽车自动挡和手动挡）<br> （5）代价就是操作系统自身的开销（启动时间、资源消耗、学习投入）</p>
-<h4 id="1-3-操作系统的构成"><a href="#1-3-操作系统的构成" class="headerlink" title="1.3 操作系统的构成"></a>1.3 操作系统的构成</h4><h5 id="1-3-1-操作系统的核心组件（类似大脑、心脏）（已经发展成熟，变化不大）"><a href="#1-3-1-操作系统的核心组件（类似大脑、心脏）（已经发展成熟，变化不大）" class="headerlink" title="1.3.1 操作系统的核心组件（类似大脑、心脏）（已经发展成熟，变化不大）"></a>1.3.1 操作系统的核心组件（类似大脑、心脏）（已经发展成熟，变化不大）</h5><p> （1）任务创建和管理调度系统<br> （2）内存管理（计算机系统的2大核心资源：CPU算力资源、内存资源）<br> （3）任务间通信机制（沟通、协作）</p>
-<h5 id="1-3-2-操作系统的外围组件（类似四肢）（不同操作系统的差异较大）"><a href="#1-3-2-操作系统的外围组件（类似四肢）（不同操作系统的差异较大）" class="headerlink" title="1.3.2 操作系统的外围组件（类似四肢）（不同操作系统的差异较大）"></a>1.3.2 操作系统的外围组件（类似四肢）（不同操作系统的差异较大）</h5><p> （1）HAL和硬件驱动<br> （2）网络通信和协议栈<br> （3）文件系统<br> （4）GUI系统<br> （5）其他第三方组件</p>
-<h4 id="1-4-总结：操作系统的实质"><a href="#1-4-总结：操作系统的实质" class="headerlink" title="1.4 总结：操作系统的实质"></a>1.4 总结：操作系统的实质</h4><p> （1）操作系统本身是一套软件系统<br> （2）操作系统负责内部管理而非外部业务<br> （3）操作系统的本质是代码复用和功能复用<br> （4）基于操作系统来设计项目是一种思路和技术观<br> （5）操作系统自身的设计是一门学问<br> （6）学习操作系统的直接目的：使用操作系统来做项目做产品<br> （7）学习操作系统源码的目的：更好的使用操作系统，改造甚至自己写新的操作系统</p>
-<h2 id="二、什么是物联网操作系统"><a href="#二、什么是物联网操作系统" class="headerlink" title="二、什么是物联网操作系统"></a>二、什么是物联网操作系统</h2><h4 id="2-1-传统两大类操作系统"><a href="#2-1-传统两大类操作系统" class="headerlink" title="2.1 传统两大类操作系统"></a>2.1 传统两大类操作系统</h4><h5 id="2-1-1-RTOS"><a href="#2-1-1-RTOS" class="headerlink" title="2.1.1 RTOS"></a>2.1.1 RTOS</h5><p> （1）RTOS的定义和特征：实时性强、不复杂、不庞大、任务数不多<br> （2）典型RTOS之ucos、Vxworks、rtlinux<br> （3）RTOS的主要应用场景和技术核心：工业、军工、消费电子等</p>
-<h5 id="2-1-2-桌面、服务器级操作系统"><a href="#2-1-2-桌面、服务器级操作系统" class="headerlink" title="2.1.2 桌面、服务器级操作系统"></a>2.1.2 桌面、服务器级操作系统</h5><p> （1）基于MMU和虚拟地址映射的OS特征<br> （2）典型桌面操作系统Windows<br> （3）典型桌面和服务器级操作系统linux<br> （4）典型智能手机操作系统Android<br> （5）基于虚拟地址的操作系统的优势和技术核心</p>
-<h5 id="2-1-3-两类操作系统的核心差别"><a href="#2-1-3-两类操作系统的核心差别" class="headerlink" title="2.1.3 两类操作系统的核心差别"></a>2.1.3 两类操作系统的核心差别</h5><p> 核心区别：是否支持实时安装应用程序，即：虚拟地址映射才支持。</p>
-<h4 id="2-2-从RTOS到IoTOS"><a href="#2-2-从RTOS到IoTOS" class="headerlink" title="2.2 从RTOS到IoTOS"></a>2.2 从RTOS到IoTOS</h4><h5 id="2-2-1-IoTOS技术上属于RTOS"><a href="#2-2-1-IoTOS技术上属于RTOS" class="headerlink" title="2.2.1 IoTOS技术上属于RTOS"></a>2.2.1 IoTOS技术上属于RTOS</h5><p> （1）IoTOS的硬件平台主要是单片机<br> （2）IoTOS基于实地址而非虚拟地址</p>
-<h5 id="2-2-2-IoTOS的本质特征"><a href="#2-2-2-IoTOS的本质特征" class="headerlink" title="2.2.2 IoTOS的本质特征"></a>2.2.2 IoTOS的本质特征</h5><p> （1）IoTOS面向物联网设备端场景<br> （2）比起实时性参数IoTOS更在意周边生态<br> （3）IoTOS之争核心在于云平台和应用、数据等衍生价值之争，而不是IoTOS本身之争</p>
-<h4 id="2-3-市场主流IoTOS"><a href="#2-3-市场主流IoTOS" class="headerlink" title="2.3 市场主流IoTOS"></a>2.3 市场主流IoTOS</h4><p> （1）华为LiteOS<br> （2）RT-Thread<br> （3）亚马逊freeRTOS<br> （4）TencentOSTiny<br> （5）AliOSThings</p>
-<h4 id="2-4-华为LiteOS竞争优势"><a href="#2-4-华为LiteOS竞争优势" class="headerlink" title="2.4 华为LiteOS竞争优势"></a>2.4 华为LiteOS竞争优势</h4><p> （1）短小精悍历经实战的kernel<br> （2）华为的信心背书与强大支撑资源，华为云IoT技术认证体系<br> （3）丰富的第三方组件支持<br> （4）华为云IoT的对接匹配<br> （5）专业IDE工具IoTStudio支持，类似于STM32的cubemx<br> （6）各种模组厂商和开发生态支持</p>
-<h2 id="三、LiteOS软件架构"><a href="#三、LiteOS软件架构" class="headerlink" title="三、LiteOS软件架构"></a>三、LiteOS软件架构</h2><h4 id="3-1-LiteOS官方资源获取"><a href="#3-1-LiteOS官方资源获取" class="headerlink" title="3.1 LiteOS官方资源获取"></a>3.1 LiteOS官方资源获取</h4><p> （1）官网：<a target="_blank" rel="noopener" href="https://www.huawei.com/minisite/liteos/cn/index.html">https://www.huawei.com/minisite/liteos/cn/index.html</a><br> （2）官方文档、 源码获取<br> （4）IoTStudio、 IoT_LINK SDK</p>
-<h4 id="3-2-LiteOS版权说明"><a href="#3-2-LiteOS版权说明" class="headerlink" title="3.2 LiteOS版权说明"></a>3.2 LiteOS版权说明</h4><p> 产品商免费商用。再发布源码要加声明，再发布二进制要在文档中加声明。不能未经允许随意使用著作权人姓名做背书。</p>
-<h4 id="3-3-LiteOS演进历程"><a href="#3-3-LiteOS演进历程" class="headerlink" title="3.3 LiteOS演进历程"></a>3.3 LiteOS演进历程</h4><p> （1）独立IoTOS阶段<br> （2）iot-link SDK全栈式IoTOS阶段1：独立开发的IoTStudio<br> （3）iot-link SDK全栈式IoTOS阶段2：基于vscode插件的IoTStudio</p>
-<h4 id="3-4-LiteOS两种开发方式"><a href="#3-4-LiteOS两种开发方式" class="headerlink" title="3.4 LiteOS两种开发方式"></a>3.4 LiteOS两种开发方式</h4><p> （1）基于Keil等第三方IDE的开发，适合用独立LiteOS，全栈式反而麻烦。<br> （2）基于IoTStudio和IotLink SDK的开发。</p>
-<h4 id="3-5-IoTStudio开发方式"><a href="#3-5-IoTStudio开发方式" class="headerlink" title="3.5 IoTStudio开发方式"></a>3.5 IoTStudio开发方式</h4><p> （1）官方gitbook：<a target="_blank" rel="noopener" href="https://flyfishzy.github.io/iotstudio-doc/">https://flyfishzy.github.io/iotstudio-doc/</a><br> （2）安装vscode和iotstudio插件<br> （3）vscode常用技巧请参考其他教程<br> （4）注意：iotstudio是IDE、是容器和工具集，而iotlink是SDK、是源码包。2者是分离合作<br> （5）.vscode目录下是vscode自身的文件和插件，.iotlink目录下是SDK的文件<br> （6）用户创建项目后，项目文件夹里是该项目专有的文件，项目也会外部引用SDK中的文件</p>
-<h4 id="3-6-IoTLink-SDk-框架"><a href="#3-6-IoTLink-SDk-框架" class="headerlink" title="3.6 IoTLink SDk 框架"></a>3.6 IoTLink SDk 框架</h4><h5 id="3-6-1-IoTStudio的图形化管理和编译"><a href="#3-6-1-IoTStudio的图形化管理和编译" class="headerlink" title="3.6.1 IoTStudio的图形化管理和编译"></a>3.6.1 IoTStudio的图形化管理和编译</h5><h5 id="3-6-2-SDK的组成部分"><a href="#3-6-2-SDK的组成部分" class="headerlink" title="3.6.2 SDK的组成部分"></a>3.6.2 SDK的组成部分</h5><h4 id="3-7-IoTLink-SDK-主体"><a href="#3-7-IoTLink-SDK-主体" class="headerlink" title="3.7 IoTLink SDK 主体"></a>3.7 IoTLink SDK 主体</h4><h4 id="3-8-IoTStudio使用"><a href="#3-8-IoTStudio使用" class="headerlink" title="3.8 IoTStudio使用"></a>3.8 IoTStudio使用</h4><h5 id="3-8-1-基本使用"><a href="#3-8-1-基本使用" class="headerlink" title="3.8.1 基本使用"></a>3.8.1 基本使用</h5><h5 id="3-8-2-工程SDK配置原理"><a href="#3-8-2-工程SDK配置原理" class="headerlink" title="3.8.2 工程SDK配置原理"></a>3.8.2 工程SDK配置原理</h5>
+                <h1 id="《CR-Fill-Generative-Image-Inpainting-with-Auxiliary-Contextual-Reconstruction》——提出语境重构辅助修复"><a href="#《CR-Fill-Generative-Image-Inpainting-with-Auxiliary-Contextual-Reconstruction》——提出语境重构辅助修复" class="headerlink" title="《CR-Fill: Generative Image Inpainting with Auxiliary Contextual Reconstruction》——提出语境重构辅助修复"></a>《CR-Fill: Generative Image Inpainting with Auxiliary Contextual Reconstruction》——提出语境重构辅助修复</h1><pre><code>会议/期刊：ICCV 2021
+论文链接：https://openaccess.thecvf.com/content/ICCV2021/html/
+Zeng_CR-Fill_Generative_Image_Inpainting_With_Auxiliary_Contextual_Reconstruction_ICCV_2021_paper.html
+代码链接：https://github.com/zengxianyu/crfill
+作者：Yu Zeng1， Zhe Lin2， Huchuan Lu3,4， Vishal M. Patel1
+单位：
+1. Johns Hopkins University 
+2. Adobe Research 
+3. Dalian University of Technology 
+4. Peng Cheng Lab
+</code></pre>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>0.最新的深度生成修复方法使用注意力层，允许生成器明确地从已知区域借用特征补丁来完成损失区域。<br>1.由于缺少已知区域和未知区域之间的相似（通信）监控信号，可能无法找到合适的参考特征，这通常会导致结果中出现伪影。<br>2.同时，在推理过程中，计算整个特征图的成对相似性时，会带来很大开销<br>3.为了解决这个问题，提出通过联合训练辅助上下文重建任务，将这种补丁借用行为交给一个无需注意力的生成器，这将促进生成的输出（即使在由周围区域重建时也是合理的）<br>把patch-borrowing行为教给attention-free的生成器（通过联和训练辅助上下文重建任务），在修复时借用的区域更加合理<br>4.辅助分支可以看作一个可学习的损失函数：上下文重建（CR）损失，其中查询引用特征相似度（ query-reference feature similar-<br>ity）和基于引用的重建器（ reference-based reconstructor）与修复生成器联和优化。<br>5.辅助分支（CR损失）仅仅在训练期间需要，推理期间仅需要修复生成器。</p>
+<h2 id="1-Introduction"><a href="#1-Introduction" class="headerlink" title="1.Introduction"></a>1.Introduction</h2><p>1.传统方法从已知区域或者外部数据集借用示例补丁，并将其粘贴到损失地区域。对于涉及复杂、非重复结构地具有挑战性的问题，他们无法产生新颖的图像内容。<br>2.最近的研究努力将注意力转移到了基于数据驱动的深度CNN方法。<br>3.对于修复，可以通过故意破坏图像并将破坏前的原始图像用作基础，自动生成无限数量的成对训练数据。<br>4.通过大型数据集的训练，基于深度网络的方法在修复复杂场景方面显示出了良好的效果。<br>5.修复中的一个挑战：对于填补自然图像中缺失的区域，有许多模糊的答案，这种模糊性通常回导致结构模糊或者扭曲。<br>6.为了克服这个问题，最近的方法试图通过明确指定已知区域作为填充缺失区域的参考来减少不确定性。<br>7.这可以通过patch-borrowing操作来实现，例如上下文注意力模块（CA），它从已知参考区域复制特征补丁，并将其粘贴到损失区域。<br>8.然而，CA模块中没有对特征相似性和补丁对应信息的直接监督，因此有时会选择权重较高的不适合补丁，从而导致后续修复结果中出现伪影。<br>a.缺少像素的图像<br>b.CA层选择的权重（使用相似性作为权重）最大的参考补丁。为了进行可视化分析，我们将每个参考补丁都知道缺失区域中的相应位置。<br>c.显示了DeepFillv2的修复结果。<br>通过比较b和c，可以看到伪影是由CA模块发现的错误参考区域引起的。此外，CA层中的patch-borrowing操作需要计算特征图中每对补丁的相似性，这对于高分辨率图像来说计算量非常大。<br>9.为了解决这些问题，我们考虑避免在修复生成器中使用显式的patch-borrowing（以使生成器能够高效借用不正确的引用补丁），同时通过上下文重建的联合训练保留和加强patch/feature复制粘贴行为（以使结果真实）。这一想法的动机来自于GAN，它的生成器和鉴别器是与两者的损失一起训练的，而在测试过程中只使用生成器。<br>10.具体，我们建议将auxiliary contextual reconstruction branch（CR loss）添加到修复网络，作为新的训练损失。auxiliary branch可以被视为上下文重建损失（CR损失），它鼓励生成的输出即使在周围（上下文）regions/features重建时也是合理的。CR损失不仅鼓励生成的缺失区域的单个特征可以从周围区域的特征中重建，而且鼓励完全上下文重建的合成在视觉上合理，类似于拼图游戏。<br>11.通过实验，验证了一个经过CR丢失训练的普通无注意力CNN可以学习继承patch-borrowing行为，这需要通过以前的方法在注意力层中明确执行。此外，由于CR损失仅在训练期间需要，因此推理过程中不会给修复模型带来计算开销，使得模型的测试效率更高。</p>
+<h4 id="贡献总结"><a href="#贡献总结" class="headerlink" title="贡献总结"></a>贡献总结</h4><p>-新的可学习的辅助上下重建分支/损失（CR损失），用于鼓励生成器借用适当的已知区域作为填充缺失区域的参考。<br>-高效的无需注意力的修复生成器，与传统修复损失和辅助上下文重建损失联和训练，同时允许进行有效的测试推理。<br>-实验证明了CR损失的有效性以及对于最先进方法的良好性能。</p>
+<h2 id="2-Related-work"><a href="#2-Related-work" class="headerlink" title="2.Related work"></a>2.Related work</h2><p>1.早期是基于扩散的方法：将相邻内容传播到缺失的区域，并在填充大洞或者纹理变化较大时导致明显伪影。<br>2.基于补丁方法：从已知区域中搜索最相似的补丁，来完成缺失区域。它们可以为纹理和重复图案生成高质量的结果。然而，由于缺乏高级结构理解和无法生成新内容，结果可能在语义上不合理。<br>3.受深层CNN在图像恢复任务中取得成功的鼓舞，最近的研究工作已将注意力转移到基于深层学习的方法。<br>4.为了产生更清晰的结果，这些方法通常采用受GAN启发的对抗训练。<br>5.P首次尝试使用CNN进行钻孔填充。Li提出一个面部补全的深层生成模型。Lizuka使用两个鉴别器使修复内容在局部和全局上保持一致。<br>6.受到基于示例的修复方法的启发，补丁借用操作已被集成到深度学习模型中。Yu等人题出了一个上下文注意力层（CA层），该层使用相似性作为权重，将缺失区域中生成的特征替换为已知区域中特征块的线性组合。Zeng等人建议使用高级特征图中的区域亲和力来知道先前的低级特征图中补丁替换操作。Yang等人题出一种基于图像内容和纹理约束联和优化的多尺度神经片合成方法。Zeng等人使用了一种相关的神经patch-vote方法来增加样本，但通过使用改进的上下文注意力层来避免缓慢的优化。Yan等人将已知区域的编码器特征移动到解码器镜像层中的缺失区域，作为缺失部分的估计。Song等人提出了一个补丁交换层，用已知区域上最相似的补丁替换缺失区域中的每个补丁特征。<br>7.除了这些方法，补丁替换操作的相关变体也被用于其他图像修复方法。这些方法基于缺失区域中的深层特征与已知区域之间的距离，在网络中实现启发式补丁借用操作。<br>8.与之不同的是，我们的方法通过联和训练上下文重建分支，教导普通CNN借用更合理的补丁。<br>9.之前的研究已经研究了图像修复中基于注意力的损失函数。Ma等人提出了相关损失（修复结果的特征亲和库镇与基本事实之间的L1损失）。它直接惩罚生成图像的相似结构与真实数据（ground-truth）的差异，这对于较大缺失区域来说过于严格。相比之下，CR损失鼓励重建图像的视觉真实性，而不明确地迫使其与真实数据（ground-truth）相匹配。这更为宽松，为复制适当地已知模式提供了更好的指导。</p>
+<h2 id="3-Genertive-inpainting-network"><a href="#3-Genertive-inpainting-network" class="headerlink" title="3.Genertive inpainting network"></a>3.Genertive inpainting network</h2><p>1.我们采用生成对抗网络的图像修复方法，该方法具有一个生成器和一个鉴别器。鉴别器的目标是区分真实图像（无缺失图像）和由生成器修复的图像。</p>
+<h4 id="3-1-Discriminator"><a href="#3-1-Discriminator" class="headerlink" title="3.1 Discriminator."></a>3.1 Discriminator.</h4><p>2.使用带光谱归一化和hinge损失的PatchGAN鉴别器来稳定训练。Inpainted Images或者ground-truth complete images被传递给鉴别器，从而生成分数图，其中每个元素都是一个分数，对应于其感受区域所覆盖的输入的局部区域。<br>3.鉴别器loss：L D</p>
+<h4 id="3-2-Coarse-to-fine-generator"><a href="#3-2-Coarse-to-fine-generator" class="headerlink" title="3.2 Coarse-to-fine generator."></a>3.2 Coarse-to-fine generator.</h4><p>4.生成器网络的总体架构。是一种从Coarse-to-fine的架构，与DeepFilv2的架构类似，但CA层被移除，而CR损失被应用。<br>5.coarse网络和refinement网络是卷积编码-解码型的网络。Dilated（扩大）卷积层用于扩大感受区域（receptive fields）。在所有的卷积和dilated卷积层中使用门控卷积。<br>空洞卷积扩大感受野且不丢失分辨率，且保持空间相对位置不变（对比池化的优点）<br>6.coarse网络采用不完整的图像，其中丢失的像素设置为0，采用指示丢失区域的二进制掩码作为输入，生成初使预测。然后，refinement网络将该初始预测作为输入，并输出最终修复结果。</p>
+<h4 id="3-3-Training-the-generator"><a href="#3-3-Training-the-generator" class="headerlink" title="3.3 Training the generator."></a>3.3 Training the generator.</h4><p>7.我们期望粗网络完成全局结构，然后由细网络填充细节。因此只有L1 loss用于训练粗网络。L1损失、对抗损失和提出的CR损失用于训练细网络。假设Y=G（U）表示细网络的输出。细网络的损失：LG</p>
+<h2 id="4-Contextual-recontruction"><a href="#4-Contextual-recontruction" class="headerlink" title="4.Contextual recontruction"></a>4.Contextual recontruction</h2><h4 id="4-1-Revisit-contextual-attention（重新审视上下文注意）"><a href="#4-1-Revisit-contextual-attention（重新审视上下文注意）" class="headerlink" title="4.1 Revisit contextual attention（重新审视上下文注意）"></a>4.1 Revisit contextual attention（重新审视上下文注意）</h4><p>1.在第一节讨论过，对于具有基于注意力的patch-borrowing操作生成器，不当借用的补丁会导致图像修复中出现瑕疵。伪影是根据参考区域的特征生成的，因此与他们在图像空间中的外观相似。可以预期，在缺失区域移动这些补丁不会产生合理的图像（图1b所示）。另一方面，如果参考区域选择正确，可以使用上下文补丁重建视觉逼真的图像。<br>2.受此启发，我们提出了一种CR损失来鼓励网络（通过最小化已知区域中由图像补丁组成的辅助结果的L1和对抗性损失）来找到最佳参考区域。即图1bd是生成的，但通过利用softmax和autoencoder-like的辅助网络可以进行去微分。<br>3.此外，与以前在生成器中集成patch-borrowing操作的方法不同，CR loss将最优上下文补丁的信息提取到一个无需注意的生成器中（图3），它不直接涉及图像修复的生成，仅仅在训练期间影响网络来学习更好的features。</p>
+<h4 id="4-2-Contextual-reconstruction-loss（背景重建损失）"><a href="#4-2-Contextual-reconstruction-loss（背景重建损失）" class="headerlink" title="4.2 Contextual reconstruction loss（背景重建损失）"></a>4.2 Contextual reconstruction loss（背景重建损失）</h4><p>4.具有CR损失的整体训练系统如图5所示，其中修复模型采用不完整图像和缺失区域的二进制掩码作为输入，并输出修复图像。具有CR损失的训练系统由相似性编码器和辅助编码器-解码器型网络组成，并重复使用第3节中定义的修复loss。相似性编码器以生成器特征为输入，对图像区域之间的相似性进行编码。辅助编码器网络生成一幅辅助图像，其中已知区域不变，而缺失区域根据相似性编码器提供的相似性填充相似的已知区域。<br>5.生成器特征的CR损失定义为辅助图像的修复损失（L1和对抗损失）。通过最小化CR损失，鼓励生成器特征接近最小修复损失的已知图像特征。下文中详细解释这一损失的正式定义和解释。<br>6.为了便于描述所提供的方法，我们定义了CNN的全局和逐块透视图。如果我们将通过CNN的图像U视为方形patchu1、u2…的组合，则此图像可以视作图像<br>（Notebook）</p>
+<h2 id="5-Explanation（解释）"><a href="#5-Explanation（解释）" class="headerlink" title="5.Explanation（解释）"></a>5.Explanation（解释）</h2><p>（Notebook）</p>
+<h4 id="注"><a href="#注" class="headerlink" title="[注]"></a>[注]</h4><p>判别器：Discriminator实现：PatchGAN<br>    CycleGAN网络中的判别器使用的是一种叫“PatchGAN”的设计，原始GAN的discriminator的设计是仅输出一个评价值（True or False），该值是对生成器生成的整幅图像的一个评价。而PatchGAN的设计不同，PatchGAN设计成全卷积的形式（这也就是为啥上文中最后作者说patchgan可以叫做 fully convolutional GAN），图像经过各种卷积层后，并不会输入到全连接层或者激活函数中，而是使用卷积将输入映射为N<em>N矩阵，该矩阵等同于原始GAN中的最后的评价值用以评价生成器的生成图像。N</em>N矩阵中每个点（true or false）即代表原始图像中的一块小区域（这也就是patch含义）评价值，这也就是“感受野（下图）”的应用。原来用一个值衡量整幅图，现在使用N<em>N的矩阵来评价整幅图（使用patchgan标签也需要设置成为N</em>N的格式，这样就可以进行损失计算了），显然后者可以关注更多的区域，这也就是patchgan的优势。</p>
+
                 
             </div>
             <hr/>
@@ -491,7 +504,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://TRACEUR-YUAN.github.io/2021/02/01/iot-ch2-liteos-develop-env/">http://TRACEUR-YUAN.github.io/2021/02/01/iot-ch2-liteos-develop-env/</a>
+                    <a href="http://TRACEUR-YUAN.github.io/2022/10/18/paper-cr-fill/">http://TRACEUR-YUAN.github.io/2022/10/18/paper-cr-fill/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -529,8 +542,16 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Practice/">
-                                    <span class="chip bg-color">Practice</span>
+                                <a href="/tags/Image-Inpainting/">
+                                    <span class="chip bg-color">Image Inpainting</span>
+                                </a>
+                            
+                                <a href="/tags/GAN/">
+                                    <span class="chip bg-color">GAN</span>
+                                </a>
+                            
+                                <a href="/tags/Attention-free/">
+                                    <span class="chip bg-color">Attention-free</span>
                                 </a>
                             
                         </div>
@@ -963,49 +984,55 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2021/02/09/notes-from-movie/">
+                <a href="/2022/10/18/paper-cr-fill/">
                     <div class="card-image">
                         
-                        <img src="/images/200.jpg" class="responsive-img" alt="Notes From Life">
+                        <img src="/images/21.jpg" class="responsive-img" alt="Paper:CR-Fill">
                         
-                        <span class="card-title">Notes From Life</span>
+                        <span class="card-title">Paper:CR-Fill</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            那些看似不起波澜的日复一日，会突然在某一天，让人看到坚持的意义
+                            图像修复论文 CR-Fill Generative Image Inpainting with Auxiliary Contextual Reconstruction 精读
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-02-09
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-10-18
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Note/" class="post-category">
-                                    Note
+                            <a href="/categories/Paper/" class="post-category">
+                                    Paper
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Movie/">
-                        <span class="chip bg-color">Movie</span>
+                    <a href="/tags/Image-Inpainting/">
+                        <span class="chip bg-color">Image Inpainting</span>
                     </a>
                     
-                    <a href="/tags/Actor-s-Lines/">
-                        <span class="chip bg-color">Actor&#39;s Lines</span>
+                    <a href="/tags/GAN/">
+                        <span class="chip bg-color">GAN</span>
+                    </a>
+                    
+                    <a href="/tags/Attention-free/">
+                        <span class="chip bg-color">Attention-free</span>
                     </a>
                     
                 </div>
@@ -1019,30 +1046,30 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/02/01/internet-of-things/">
+                <a href="/2022/07/18/linux-kernel-linklist/">
                     <div class="card-image">
                         
-                        <img src="/images/1.jpg" class="responsive-img" alt="IOT:物联网简介">
+                        <img src="/images/31.jpg" class="responsive-img" alt="Linux内核链表">
                         
-                        <span class="card-title">IOT:物联网简介</span>
+                        <span class="card-title">Linux内核链表</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            本文主要以全局的眼光看待物联网，高屋建瓴的了解物联网的架构。物联网是5G时代发展的主旋律。也是互联网的延申。,因此，关于物联网的概念及其重要，必须熟稔于心。 本篇文章介绍物联网的：,1.概念,2.发展历程,3.典型案例,4.分支应用领域,5.技术实现架构,6.各层次涉及的核心技术,7.华为的物联网解决方案
+                            本文主要介绍： 1、Linux内核链表  2、内核链表的基本算法和使用  3、状态机  4、多线程
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-01
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-18
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/HUAWEI-LiteOS/" class="post-category">
-                                    HUAWEI LiteOS
+                            <a href="/categories/Linux/" class="post-category">
+                                    Linux
                                 </a>
                             
                             
@@ -1052,12 +1079,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Introduce/">
-                        <span class="chip bg-color">Introduce</span>
+                    <a href="/tags/Linux-Kernel/">
+                        <span class="chip bg-color">Linux Kernel</span>
                     </a>
                     
-                    <a href="/tags/Operating-System/">
-                        <span class="chip bg-color">Operating System</span>
+                    <a href="/tags/LinkList/">
+                        <span class="chip bg-color">LinkList</span>
                     </a>
                     
                 </div>

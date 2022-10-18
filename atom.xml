@@ -6,7 +6,7 @@
   <link href="http://traceur-yuan.github.io/atom.xml" rel="self"/>
   
   <link href="http://traceur-yuan.github.io/"/>
-  <updated>2022-07-19T07:58:58.590Z</updated>
+  <updated>2022-10-18T04:27:49.825Z</updated>
   <id>http://traceur-yuan.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Paper:CR-Fill</title>
+    <link href="http://traceur-yuan.github.io/2022/10/18/paper-cr-fill/"/>
+    <id>http://traceur-yuan.github.io/2022/10/18/paper-cr-fill/</id>
+    <published>2022-10-18T03:59:58.000Z</published>
+    <updated>2022-10-18T04:27:49.825Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;《CR-Fill-Generative-Image-Inpainting-with-Auxiliary-Contextual-Reconstruction》——提出语境重构辅助修复&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Paper" scheme="http://traceur-yuan.github.io/categories/Paper/"/>
+    
+    
+    <category term="Image Inpainting" scheme="http://traceur-yuan.github.io/tags/Image-Inpainting/"/>
+    
+    <category term="GAN" scheme="http://traceur-yuan.github.io/tags/GAN/"/>
+    
+    <category term="Attention-free" scheme="http://traceur-yuan.github.io/tags/Attention-free/"/>
+    
+  </entry>
   
   <entry>
     <title>Linux内核链表</title>
