@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Image Inpainting</title>
+      <link href="/2022/11/09/image-inpainting/"/>
+      <url>/2022/11/09/image-inpainting/</url>
+      
+        <content type="html"><![CDATA[<h2 id="论文目录："><a href="#论文目录：" class="headerlink" title="论文目录："></a>论文目录：</h2><pre><code>《Learning Prior Feature and Attention Enhanced Image Inpainting》 论文链接：https://arxiv.org/abs/2208.01837代码链接：https://github.com/ewrfcas/MAE-FAR.作者：Chenjie Cao∗, Qiaole Dong∗, and Yanwei Fu 单位：School of Data Science, Fudan University《Image Inpainting with Local and Global Refinement》通过全局及局部优化进行修复会议/期刊：IEEE TIP 2022论文链接：https://ieeexplore.ieee.org/abstract/document/9730792/代码链接：https://github.com/weizequan/LGNet.git作者：Weize Quan, Ruisong Zhang, Yong Zhang, Zhifeng Li, Jue Wang, and Dong-Ming Yan单位：Institute of Automation, Chinese Academy of Sciences《High-Fidelity Pluralistic Image Completion with Transformers》通过Transformer进行多样修复会议/期刊：ICCV 2021论文链接：ICCV 2021 Open Access Repository代码链接：https://github.com/raywzy/ICT作者：Ziyu Wan1, Jingbo Zhang1, Dongdong Chen2, Jing Liao1*单位：1City University of Hong Kong 2Microsoft Cloud + AI《Bridging Global Context Interactions for High-Fidelity Image Completion》使用Transformer进行长距离注意力会议/期刊：CVPR 2022论文链接：Bridging Global Context Interactions for High-Fidelity Image Completion代码链接：GitHub - lyndonzheng/TFill作者：Chuanxia Zheng, Tat-Jen Cham, Jianfei Cai, Dinh Phung单位：Nanyang Technological University, Singapore, Monash University, Australia</code></pre><h2 id="1-Learning-Prior-Feature-and-Attention-Enhanced-Image-Inpainting"><a href="#1-Learning-Prior-Feature-and-Attention-Enhanced-Image-Inpainting" class="headerlink" title="1.Learning Prior Feature and Attention Enhanced Image Inpainting"></a>1.Learning Prior Feature and Attention Enhanced Image Inpainting</h2><p><img src="/./blog/inp1.jpg" alt="图1：FAR网络结构"></p><p>1.MAE中的注意力先验<br>2.自监督预训练模型（自监督学习发源于NLP领域）（自监督学习源于Bert）<br>有监督学习：人工标注数据集<br>无监督学习：从现有数据中生成无限标签<br>3.ablation study：为了研究模型中所题出的一些结构是否有效，而设计的实验。<br>4.FAR：文章标题，指的使用MAE的预训练模型指导图像修复<br>    4.1.首先利用遮蔽视觉预测任务对MAE进行预训练（将随机遮蔽替换为——》大的连续的遮蔽，更加适合下游任务）<br>    4.2.将MAE解码器特征添加到修复CNN中。用于引导图像修复<br>    4.3.使用组卷积将CNN特征与MAE的注意力分数进行聚合<br>    4.4.预训练和微调技巧：更好的利用MAE<br>5.实现方法（FAR）<br>    图片Im输入，调整为256<em>256，将遮盖放大到16</em>16（这时得到了遮蔽图像I’m）<br>    使用MAE将之前prior feature编码为Fp=MAE(Ip)（Ip表示I’m中未被遮蔽的面）*****3.1<br>    调整prior feature的大小调整为原始图像大小的1/8,与笛卡尔网络空间链接为F’p<br>    通过门控卷积对F’p进行编码，将其添加到基于attention的CNN恢复（ACR）的编码器中，这个编码器用来恢复原始被遮蔽的图像Im<br>    利用MAE解码器的平均注意力分数（maen attention scores），将unmasked features聚集到ACR中的masked regions，获得最终修复图像。</p><h2 id="2-Image-Inpainting-With-Local-and-Global-Refinement"><a href="#2-Image-Inpainting-With-Local-and-Global-Refinement" class="headerlink" title="2.Image Inpainting With Local and Global Refinement"></a>2.Image Inpainting With Local and Global Refinement</h2><p><img src="/./blog/inp2.jpg" alt="图二"></p><p>1.图像修复取得显著进展。<br>2.流行的网络遵循：编码器-解码器体系结构（有时具有跳跃连接），并且具有足够大的接收场，即大于图像分辨率。（感受野指与神经元相连的一组输入像素）<br>3.然而对于图像修复任务，修复不同类型缺失区域所需的周围区域的大小不同，并且非常大的感受野并不是最佳的，特别是对于局部结构和纹理。此外，较大的感受野往往涉及更多不希望的完成结果，这将干扰修补过程。<br>4.基于这些，我们从感受场的不同角度重新思考图像修复的过程，并提出了一种新颖的局部和全局细化的三阶段修复框架。<br>5.具体来说<br>    首先：利用具有跳跃连接的encoder-decoder网络来获得粗糙的初使结果。<br>    然后：引入一个具有小接收场的浅-深模型来进行局部细化，这也可以减弱远距离不良完全结果的影响。<br>    最后：提出了一种基于注意的大接收场encoder-decoder网络来进行全局细化。<br>6.实验结果表明，我们在三个流行的公开数据集上的性能优于目前的技术水平。<br>7.我们本地和局部优化网络可以直接插入任何现有网络的末端，进一步提高其修复性能。</p><h2 id="3-High-Fidelity-Pluralistic-Image-Completion-with-Transformers"><a href="#3-High-Fidelity-Pluralistic-Image-Completion-with-Transformers" class="headerlink" title="3.High-Fidelity Pluralistic Image Completion with Transformers"></a>3.High-Fidelity Pluralistic Image Completion with Transformers</h2><p><img src="/./blog/inp3.jpg" alt="图三"></p><p>1.CNN 具有强大的纹理建模能力，但是在理解全局结构表现不佳。<br>2.Transformer 在建模长期关系和生成不同结果方面表现出强大的能力，但是计算复杂度高，不好应用在高分辨率图像当中。<br>3.本文带来了完美的方案：Transformer进行外观重建，CNN进行纹理补充。前者恢复了多元相干结构和粗糙纹理，而后者CNN增强了由高分辨率遮蔽图像引导的粗糙先验的局部纹理细节。<br>4.所提出的方法在三个方面优于现有的方法：<br>    1）即使与确定性完成方法相比，图像保真度也有较大的性能提升<br>    2）更好的多元性和更高的保真度，实现多元化完成<br>    3）在大型掩码和通用数据集上具有出色的泛化能力</p><h2 id="4-Bridging-Global-Context-Interactions-for-High-Fidelity-Image-Completion"><a href="#4-Bridging-Global-Context-Interactions-for-High-Fidelity-Image-Completion" class="headerlink" title="4.Bridging Global Context Interactions for High-Fidelity Image Completion"></a>4.Bridging Global Context Interactions for High-Fidelity Image Completion</h2><p><img src="/./blog/inp4.jpg" alt="图四"></p><p>1.正确桥接全局上下文交互对于使用大掩摸完成高保真图像非常重要。以前的方法通过深或大的感受野（RF）卷积来尝试这一点，但无法摆脱附近相互作用的主导地位，这可能是劣势。<br>2.本文中，我们突出将图像修复视为无方向序列到序列（sequence-to-sequence）的预测任务，并部署一个转换器来直接捕获编码器中的长距离相关性。至关重要的是，我们使用了一种具有小且不重叠RF的限制性CNN来进行加权token表示，这允许transformer在所有层中以同等重要性显示建模长距离可见上下文关系，而在使用较大RF时不会隐式混淆相邻token。<br>3.为了改善可见区域和生成区域之间的外观一致性，引入了一种新的注意力感知层（AAL），以更好地利用距离相关地高频特征。<br>4.实验表明性能优越。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Paper </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Image Inpainting </tag>
+            
+            <tag> summary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Paper:CR-Fill</title>
       <link href="/2022/10/18/paper-cr-fill/"/>
       <url>/2022/10/18/paper-cr-fill/</url>

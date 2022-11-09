@@ -6,7 +6,7 @@
   <link href="http://traceur-yuan.github.io/atom.xml" rel="self"/>
   
   <link href="http://traceur-yuan.github.io/"/>
-  <updated>2022-10-18T04:27:49.825Z</updated>
+  <updated>2022-11-09T10:01:57.292Z</updated>
   <id>http://traceur-yuan.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Image Inpainting</title>
+    <link href="http://traceur-yuan.github.io/2022/11/09/image-inpainting/"/>
+    <id>http://traceur-yuan.github.io/2022/11/09/image-inpainting/</id>
+    <published>2022-11-09T09:21:19.000Z</published>
+    <updated>2022-11-09T10:01:57.292Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;论文目录：&quot;&gt;&lt;a href=&quot;#论文目录：&quot; class=&quot;headerlink&quot; title=&quot;论文目录：&quot;&gt;&lt;/a&gt;论文目录：&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;《Learning Prior Feature and Attention Enhanced</summary>
+        
+      
+    
+    
+    
+    <category term="Paper" scheme="http://traceur-yuan.github.io/categories/Paper/"/>
+    
+    
+    <category term="Image Inpainting" scheme="http://traceur-yuan.github.io/tags/Image-Inpainting/"/>
+    
+    <category term="summary" scheme="http://traceur-yuan.github.io/tags/summary/"/>
+    
+  </entry>
   
   <entry>
     <title>Paper:CR-Fill</title>
