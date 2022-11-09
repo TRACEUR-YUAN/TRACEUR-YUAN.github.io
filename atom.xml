@@ -34,6 +34,8 @@
     
     
     
+    <category term="Paper" scheme="http://traceur-yuan.github.io/categories/Paper/"/>
+    
     
     <category term="Image Inpainting" scheme="http://traceur-yuan.github.io/tags/Image-Inpainting/"/>
     
@@ -58,6 +60,8 @@
       
     
     
+    
+    <category term="Paper" scheme="http://traceur-yuan.github.io/categories/Paper/"/>
     
     
     <category term="Image Inpainting" scheme="http://traceur-yuan.github.io/tags/Image-Inpainting/"/>
@@ -86,6 +90,8 @@
     
     
     
+    <category term="Linux" scheme="http://traceur-yuan.github.io/categories/Linux/"/>
+    
     
     <category term="Linux Kernel" scheme="http://traceur-yuan.github.io/tags/Linux-Kernel/"/>
     
@@ -113,6 +119,8 @@
     
     
     
+    <category term="Hexo" scheme="http://traceur-yuan.github.io/categories/Hexo/"/>
+    
     
     <category term="Practice" scheme="http://traceur-yuan.github.io/tags/Practice/"/>
     
@@ -137,6 +145,8 @@
       
     
     
+    
+    <category term="Linux" scheme="http://traceur-yuan.github.io/categories/Linux/"/>
     
     
     <category term="Linux" scheme="http://traceur-yuan.github.io/tags/Linux/"/>
@@ -165,6 +175,8 @@
     
     
     
+    <category term="Note" scheme="http://traceur-yuan.github.io/categories/Note/"/>
+    
     
     <category term="Movie" scheme="http://traceur-yuan.github.io/tags/Movie/"/>
     
@@ -190,6 +202,8 @@
     
     
     
+    <category term="HUAWEI LiteOS" scheme="http://traceur-yuan.github.io/categories/HUAWEI-LiteOS/"/>
+    
     
     <category term="Practice" scheme="http://traceur-yuan.github.io/tags/Practice/"/>
     
@@ -212,6 +226,8 @@
       
     
     
+    
+    <category term="HUAWEI LiteOS" scheme="http://traceur-yuan.github.io/categories/HUAWEI-LiteOS/"/>
     
     
     <category term="Introduce" scheme="http://traceur-yuan.github.io/tags/Introduce/"/>
@@ -237,6 +253,8 @@
       
     
     
+    
+    <category term="UCOS" scheme="http://traceur-yuan.github.io/categories/UCOS/"/>
     
     
     <category term="Introduce" scheme="http://traceur-yuan.github.io/tags/Introduce/"/>
@@ -265,6 +283,8 @@
     
     
     
+    <category term="Hexo" scheme="http://traceur-yuan.github.io/categories/Hexo/"/>
+    
     
     <category term="Practice" scheme="http://traceur-yuan.github.io/tags/Practice/"/>
     
@@ -289,6 +309,8 @@
       
     
     
+    
+    <category term="Summary" scheme="http://traceur-yuan.github.io/categories/Summary/"/>
     
     
     <category term="Summary" scheme="http://traceur-yuan.github.io/tags/Summary/"/>
